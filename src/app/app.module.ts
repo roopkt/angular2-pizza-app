@@ -8,6 +8,7 @@ import { PizzaCreatorComponent } from './pizza/pizza-creator/pizza-creator.compo
 import { PizzaFormComponent } from './pizza/pizza-form/pizza-form.component';
 import { ToppingSelectorComponent } from './pizza/topping-selector/topping-selector.component';
 import { PizzaNameComponent } from './pizza/pizza-name/pizza-name.component';
+import { PizzaSelectedComponent } from './pizza/pizza-selected/pizza-selected.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PizzaNameComponent } from './pizza/pizza-name/pizza-name.component';
     PizzaCreatorComponent,
     PizzaFormComponent,
     ToppingSelectorComponent,
-    PizzaNameComponent
+    PizzaNameComponent,
+    PizzaSelectedComponent
   ],
   imports: [
     BrowserModule,
