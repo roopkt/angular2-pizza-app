@@ -1,0 +1,6 @@
+<div class="pizza-button" [formGroup]="parent">
+    <button type="button" (click)="onClick()" [disabled]="parent.invalid">
+        <img src="assets/add.svg">
+        <ng-content></ng-content>
+      </button>
+</div>

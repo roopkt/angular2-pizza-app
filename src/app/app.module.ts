@@ -9,6 +9,7 @@ import { PizzaFormComponent } from './pizza/pizza-form/pizza-form.component';
 import { ToppingSelectorComponent } from './pizza/topping-selector/topping-selector.component';
 import { PizzaNameComponent } from './pizza/pizza-name/pizza-name.component';
 import { PizzaSelectedComponent } from './pizza/pizza-selected/pizza-selected.component';
+import { PizzaButtonComponent } from './pizza/pizza-button/pizza-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PizzaSelectedComponent } from './pizza/pizza-selected/pizza-selected.co
     PizzaFormComponent,
     ToppingSelectorComponent,
     PizzaNameComponent,
-    PizzaSelectedComponent
+    PizzaSelectedComponent,
+    PizzaButtonComponent
   ],
   imports: [
     BrowserModule,
